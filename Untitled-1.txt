@@ -1,0 +1,16 @@
+<html>
+<title>
+    Home Page
+</title>
+<style>
+    table.center{margin-right: auto; margin-left: auto;}
+    </style>
+<body><div class="wrapper">
+<header>
+    <table class="center">
+        <th>
+            <tr><h1>JJ Cofee House</h1></tr>
+        </th>
+    </table>
+</body>
+</html>
