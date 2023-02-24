@@ -7,9 +7,15 @@
     #socialIcons {background-color: #000000; text-align: center; padding: 10px 10px;}
     #footer {text-align: center; background-color:#ffffff; font-style: italic; font-size: small;}
 </style>
-<title>Homepage</title>
 <html>
-    <head></head>
+    <head>
+        <header><div style="text-align: center;">
+            <a href="./homepage.html" title="Joel Pagini Web Designer"><img src=".\jp_logo.png" height="100" alt="Joel Pagini Logo"></a>
+            </div>
+        </header>
+        <title>About Me</title>
+    </head>
+    <body>
     <navigation>
         <div class="navigation">
         <a href="./homepage.html">Home</a>
@@ -17,12 +23,22 @@
         <a href="./portfolio.html">Portfolio</a>
         <a href="./aboutme.html">About Me</a>
         <a href="./getintouch.html">Get in Touch</a>
+        <input type="text" placeholder="Search..">
         </div>
     </navigation>
-    <body>
-        <div style="text-align: center;">
-        <a href="./aboutme.html"><img class="Presentation" src=".\joel_pagini_web_designer.jpg" alt="Joel.Pagini.Web.Designer"></a>
-        </div>
+        <br>
+        <form style="margin: auto; width: 300px;">
+            <label for="lastname"><strong>Last name:</strong></label><br>
+            <input type="text" id="firstname" name="firstname"><br>
+            <label for="lastname"><strong>Last name:</strong></label><br>
+            <input type="text" id="lastname" name="lastname"><br>
+            <label for="email"><strong>E-mail *:</strong></label><br>
+            <input type="email" id="email" name="email" required><br>
+            <label for="text"><strong>Your Message *:</strong></label><br>
+            <textarea rows="4" cols="40" id="text" name="text" required></textarea><br>
+            <input type="submit" value="Submit">
+      </form>
+      <br>
         <social>
         <div id="socialIcons">
         <a href="https://www.facebook.com/joel.pagini/" title="Follow me on Facebook">
@@ -31,15 +47,14 @@
         <a href="https://www.instagram.com/joelpagi/" title="Follow me on Instagram">
             <img class="Instagram" alling="center" height="50px" src=".\Instagram_Glyph_Gradient.png" alt="Instagram Icon">
         </a>
-    </div>
+        </div>
     </social>
-    </body>
     <br>
     <footer>
         <div id="footer">
-            Copywright © 2023 Joel Pagini
-            <br> 
-            <a href="mailto:joel.pagini86@gmail.com">joel.pagini86@gmail.com</a>
+            <p>Copywright © 2023 Joel Pagini</p>
+            <p><a href="mailto:joel.pagini86@gmail.com">joel.pagini86@gmail.com</a></p>
         </div>
     </footer>
+    </body>
 </html>
